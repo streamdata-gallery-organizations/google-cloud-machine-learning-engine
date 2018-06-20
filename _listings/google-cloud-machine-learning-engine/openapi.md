@@ -4,7 +4,7 @@ x-collection-name: Google Cloud Machine Learning Engine
 x-complete: 1
 info:
   title: Google Cloud Machine Learning Engine
-  description: an-api-to-enable-creating-and-using-machine-learning-models
+  description: an-api-to-enable-creating-and-using-machine-learning-models-
   contact:
     name: Google
     url: https://google.com
@@ -39,6 +39,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Version
     get:
       summary: Get Model Version
@@ -59,6 +60,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Version
   /v1/{name}/operations:
     get:
@@ -88,6 +90,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Operation
   /v1/{name}:cancel:
     post:
@@ -117,6 +120,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Operation
   /v1/{name}:getConfig:
     get:
@@ -136,6 +140,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Operation
   /v1/{name}:predict:
     post:
@@ -158,6 +163,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Operation
   /v1/{name}:setDefault:
     post:
@@ -185,6 +191,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Version
   /v1/{parent}/jobs:
     get:
@@ -209,6 +216,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Job
     post:
       summary: Create Job
@@ -227,6 +235,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Job
   /v1/{parent}/models:
     get:
@@ -252,6 +261,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
     post:
       summary: Create Models
@@ -275,6 +285,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Model
   /v1/{parent}/versions:
     get:
@@ -301,6 +312,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Version
     post:
       summary: Create Version
@@ -327,5 +339,6 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Version
 ---

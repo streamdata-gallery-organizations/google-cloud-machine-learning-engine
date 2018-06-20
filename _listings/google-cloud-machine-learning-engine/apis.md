@@ -10,10 +10,10 @@ description: Google Cloud Machine Learning Engine is a managed service that enab
   of users and TBs of data.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Google Cloud Machine Learning Engine
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/apis.md
 specificationVersion: "0.14"
 apis:
@@ -30,7 +30,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{name}
-  tags: Version
+  tags: Machine Learning,Version
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1name-delete-postman.md
@@ -48,7 +48,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{name}
-  tags: Version
+  tags: Machine Learning,Version
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1name-get-postman.md
@@ -65,7 +65,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{name}/operations
-  tags: Operation
+  tags: Machine Learning,Operation
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1nameoperations-get-postman.md
@@ -87,7 +87,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{name}:cancel
-  tags: Operation
+  tags: Machine Learning,Operation
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1namecancel-post-openapi.md
@@ -101,7 +101,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{name}:getConfig
-  tags: Operation
+  tags: Machine Learning,Operation
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1namegetconfig-get-openapi.md
@@ -114,7 +114,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{name}:predict
-  tags: Operation
+  tags: Machine Learning,Operation
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1namepredict-post-openapi.md
@@ -132,7 +132,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{name}:setDefault
-  tags: Version
+  tags: Machine Learning,Version
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1namesetdefault-post-openapi.md
@@ -142,7 +142,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{parent}/jobs
-  tags: Job
+  tags: Machine Learning,Job
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentjobs-get-openapi.md
@@ -152,7 +152,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{parent}/jobs
-  tags: Job
+  tags: Machine Learning,Job
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentjobs-post-openapi.md
@@ -166,7 +166,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{parent}/models
-  tags: Model
+  tags: Machine Learning,Model
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentmodels-get-openapi.md
@@ -181,7 +181,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{parent}/models
-  tags: Model
+  tags: Machine Learning,Model
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentmodels-post-openapi.md
@@ -196,7 +196,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{parent}/versions
-  tags: Version
+  tags: Machine Learning,Version
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentversions-get-openapi.md
@@ -214,7 +214,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
   baseURL: ://ml.googleapis.com////v1/{parent}/versions
-  tags: Version
+  tags: Machine Learning,Version
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentversions-post-openapi.md

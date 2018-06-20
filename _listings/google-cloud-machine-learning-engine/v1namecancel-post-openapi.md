@@ -49,6 +49,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Version
     get:
       summary: Get Model Version
@@ -69,6 +70,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Version
   /v1/{name}/operations:
     get:
@@ -98,6 +100,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Operation
   /v1/{name}:cancel:
     post:
@@ -127,6 +130,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Operation
 x-streamrank:
   polling_total_time_average: 0
