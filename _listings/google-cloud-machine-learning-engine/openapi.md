@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Google Cloud Machine Learning Engine
 x-complete: 1
@@ -341,4 +340,3 @@ paths:
       tags:
       - Machine Learning
       - Version
----

@@ -12,13 +12,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Google Cloud Machine Learning Engine
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Cloud Machine Learning API Delete Model Version
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Delete Model Version
+  x-api-slug: v1name-delete
   description: |-
     Deletes a model version.
 
@@ -29,15 +29,16 @@ apis:
     of the model unless it is the only remaining version.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{name}
-  tags: Machine Learning,Version
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1name-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1name-delete-openapi.md
-- name: Google Cloud Machine Learning API Get Model Version
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Get Model Version
+  x-api-slug: v1name-get
   description: |-
     Gets information about a model version.
 
@@ -47,15 +48,16 @@ apis:
     versions of a model.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{name}
-  tags: Machine Learning,Version
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1name-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1name-get-openapi.md
-- name: Google Cloud Machine Learning API Get Operations
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Get Operations
+  x-api-slug: v1nameoperations-get
   description: |-
     Lists operations that match the specified filter in the request. If the
     server doesn't support this method, it returns `UNIMPLEMENTED`.
@@ -64,15 +66,16 @@ apis:
     to use different resource name schemes, such as `users/*/operations`.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{name}/operations
-  tags: Machine Learning,Operation
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1nameoperations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1nameoperations-get-openapi.md
-- name: Google Cloud Machine Learning API Cancel Operation
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Cancel Operation
+  x-api-slug: v1namecancel-post
   description: |-
     Starts asynchronous cancellation on a long-running operation.  The server
     makes a best effort to cancel the operation, but success is not
@@ -86,13 +89,14 @@ apis:
     corresponding to `Code.CANCELLED`.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{name}:cancel
-  tags: Machine Learning,Operation
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1namecancel-post-openapi.md
-- name: Google Cloud Machine Learning API Get Operation
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Get Operation
+  x-api-slug: v1namegetconfig-get
   description: |-
     Get the service account information associated with your project. You need
     this information in order to grant the service account persmissions for
@@ -100,26 +104,28 @@ apis:
     for training the model with Google Cloud Machine Learning.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{name}:getConfig
-  tags: Machine Learning,Operation
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1namegetconfig-get-openapi.md
-- name: Google Cloud Machine Learning API Predict Operation
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Predict Operation
+  x-api-slug: v1namepredict-post
   description: |-
     Performs prediction on the data in the request.
 
     **** REMOVE FROM GENERATED DOCUMENTATION
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{name}:predict
-  tags: Machine Learning,Operation
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1namepredict-post-openapi.md
-- name: Google Cloud Machine Learning API Set Default Version
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Set Default Version
+  x-api-slug: v1namesetdefault-post
   description: |-
     Designates a version to be the default for the model.
 
@@ -131,33 +137,36 @@ apis:
     setting manually using this method.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{name}:setDefault
-  tags: Machine Learning,Version
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1namesetdefault-post-openapi.md
-- name: Google Cloud Machine Learning API List Jobs
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - List Jobs
+  x-api-slug: v1parentjobs-get
   description: Lists the jobs in the project.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{parent}/jobs
-  tags: Machine Learning,Job
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentjobs-get-openapi.md
-- name: Google Cloud Machine Learning API Create Job
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Create Job
+  x-api-slug: v1parentjobs-post
   description: Creates a training or a batch prediction job.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{parent}/jobs
-  tags: Machine Learning,Job
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentjobs-post-openapi.md
-- name: Google Cloud Machine Learning API List Models
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - List Models
+  x-api-slug: v1parentmodels-get
   description: |-
     Lists the models in a project.
 
@@ -165,13 +174,14 @@ apis:
     versions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{parent}/models
-  tags: Machine Learning,Model
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentmodels-get-openapi.md
-- name: Google Cloud Machine Learning API Create Models
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Create Models
+  x-api-slug: v1parentmodels-post
   description: |-
     Creates a model which will later contain one or more versions.
 
@@ -180,13 +190,14 @@ apis:
     [projects.models.versions.create](/ml/reference/rest/v1/projects.models.versions/create).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{parent}/models
-  tags: Machine Learning,Model
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentmodels-post-openapi.md
-- name: Google Cloud Machine Learning API Get Version
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Get Version
+  x-api-slug: v1parentversions-get
   description: |-
     Gets basic information about all the versions of a model.
 
@@ -195,13 +206,14 @@ apis:
     be retrieved in batches (called pages):
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{parent}/versions
-  tags: Machine Learning,Version
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentversions-get-openapi.md
-- name: Google Cloud Machine Learning API Create Version
-  x-api-slug: google-cloud-machine-learning-api
+- name: Google Cloud Machine Learning Engine - Create Version
+  x-api-slug: v1parentversions-post
   description: |-
     Creates a new version of a model from a trained TensorFlow model.
 
@@ -213,28 +225,17 @@ apis:
     [projects.models.versions.setDefault](/ml/reference/rest/v1/projects.models.versions/setDefault).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
   humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com////v1/{parent}/versions
-  tags: Machine Learning,Version
+  baseURL: ://ml.googleapis.com//
+  tags: Machine Learning, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/v1parentversions-post-openapi.md
-- name: Google Cloud Machine Learning API
-  x-api-slug: google-cloud-machine-learning-api
-  description: Google Cloud Machine Learning Engine is a managed service that enables
-    you to easily build machine learning models, that work on any type of data, of
-    any size. Create your model with the powerful TensorFlow framework that powers
-    many Google products, from Google Photos to Google Cloud Speech. Build models
-    of any size with our managed scalable infrastructure. Your trained model is immediately
-    available for use with our global prediction platform that can support thousands
-    of users and TBs of data.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png
-  humanURL: https://cloud.google.com/ml-engine/
-  baseURL: ://ml.googleapis.com//
-  tags: Google Cloud Machine Learning Engine
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-machine-learning-engine/master/_listings/google-cloud-machine-learning-engine/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.key.management.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.machine.learning.engine.stack.network
 - type: x-change-log
   url: https://cloud.google.com/ml-engine/docs/resources/release-notes
 - type: x-command-line-interface
